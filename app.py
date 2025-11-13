@@ -719,7 +719,7 @@ HTML_PAGE = """
   <body>
     <header>
       <h1>X-Plane Voice Copilot</h1>
-      <p class="status">Press "Connect" and start speaking. Ask "What's our flight status?" to hear telemetry readbacks.</p>
+      <p class="status">Press "Connect" and start speaking. Ask "How's the flight doing?" to hear telemetry readbacks with the outside view as context.</p>
     </header>
 
     <section class="row">

@@ -18,7 +18,7 @@
 - **Python 3.10+** on Windows (for screenshot support).
 - An **OpenAI API key** with access to Realtime models.
 - A modern desktop browser (Chrome/Edge) with microphone access enabled.
-
+- *(recommended)* **uv** – fast Python installer/runner. If you don’t have it, use `pip`.
 ---
 
 ## Quickstart

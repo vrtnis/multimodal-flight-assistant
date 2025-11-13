@@ -1,5 +1,10 @@
 # Multimodal Flight Assistant
 
+<p align="center">
+  <img src="images/screenshot.png" alt="Cockpit Screenshot" width="720"><br>
+  <em>Example cockpit view streamed to the Realtime AI flight assistant</em>
+</p>
+
 `app.py` is a one-file FastAPI app that:
 
 - streams **X-Plane 12** telemetry via your REST/WebSocket bridge server,

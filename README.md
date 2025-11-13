@@ -25,7 +25,7 @@
 
 ```bash
 # clone
-git clone https://github.com/<you>/multimodal-voice-assistant.git
+git clone https://github.com/vrtnis/multimodal-voice-assistant.git
 cd multimodal-voice-assistant
 
 # create & activate venv (PowerShell on Windows)

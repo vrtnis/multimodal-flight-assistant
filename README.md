@@ -3,8 +3,8 @@
 `app.py` is a one-file FastAPI app that:
 
 - streams **X-Plane 12** telemetry via your REST/WebSocket bridge server,
-- opens an **OpenAI Realtime** voice session in the browser,
-- lets you **attach cockpit screenshots** (server-side) for vision, while using a tool call for numeric telemetry.
+- opens an **OpenAI Realtime** voice session in the browser (uses a single multimodal model)
+- lets you **attach cockpit screenshots** (server-side) for vision, while using a tool call for numeric telemetry or runs both automatically at intervals you set.
 
 > **Note**: server-side screenshots use Windows APIs (`mss`, `pygetwindow`, `pywin32`).  
 > On macOS/Linux the `/screenshot` route will return `503`.

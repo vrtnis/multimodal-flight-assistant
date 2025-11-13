@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+requests
+websockets
+# Screenshot stack (Windows-only; /screenshot returns 503 if missing)
+Pillow
+mss
+pygetwindow
+pywin32

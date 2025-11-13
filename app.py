@@ -1220,9 +1220,6 @@ HTML_PAGE = """
 </html>
 """
 
-
-
-
 @app.get("/", response_class=HTMLResponse)
 async def index() -> HTMLResponse:
     return HTMLResponse(HTML_PAGE)
